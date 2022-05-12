@@ -1,0 +1,111 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","greetings"],
+  "responses": ["Hey!","Hello!","Hi!","Hello, what can do for you?"]},
+  {"tag": "goodbye",
+    "patterns": ["bye","see you later","goodbye","talk to you later"],
+    "responses": ["Glad I could help, bye","Ok bye","Talk to you later!","Bye, see you soon!"]
+  },
+  {"tag": "name",
+    "patterns": ["who are you?","what is your name?","what may i call you?","what do you do?","what are you for?"],
+    "responses": ["I am BankingBot and I answer bank related queries"]
+  },
+  {
+    "tag": "smalltalk",
+    "patterns": ["how are you?","how is life?","how is it going?","what's up?"],
+    "responses": ["I am good","I am fine","I am fantastic!"]
+  },
+  {
+    "tag": "hours",
+    "patterns": ["when are you open?","when can i contact you?","hours of operation"],
+    "responses": ["24/7"]
+  },
+  {
+    "tag": "bank",
+    "patterns": ["what is a bank?","what are the basics of banking?","what is banking?","what is bank?"],
+    "responses": ["A bank is a financial institution licensed to receive deposits and make loans. "]
+  },
+    {
+    "tag": "features",
+    "patterns": ["what does a bank do?","what are the features of a bank?","what is a bank's job?"],
+    "responses": ["A bank is a financial institution licensed to receive deposits and make loans .There are several types of banks including retail, commercial, and investment banks .In most countries, banks are regulated by the national government or central bank."]
+  },
+  {
+    "tag": "checkingAccount",
+    "patterns": ["what is a checking account?","features of a checking account?"],
+    "responses": ["Checking accounts are designed to make spending money, transferring funds and paying bills convenient",
+      "A checking account is an account held at a financial institution that allows you to make deposits and withdrawals."]
+  },
+    {
+    "tag": "savingsAccount",
+    "patterns": ["what is a savings account?","features of a savings account?"],
+    "responses": ["A savings account is a deposit account that is designed for holding funds that are not earmarked for paying bills or covering spending.",
+    "Savings accounts can help you grow your money with interest and are subject to federal regulations governing the number of withdrawals you can make each month."]
+  },
+    {
+    "tag": "CD",
+    "patterns": ["what is a cd?","what is a certificate of deposit?"],
+    "responses": ["A certificate of deposit (CD) is a product offered by banks and credit unions that provides an interest rate premium in exchange for the customer agreeing to leave a lump-sum deposit untouched for a predetermined period of time."]
+  },
+    {
+    "tag": "longtermdebt",
+    "patterns": ["what is long term debt?","meaning of a long term debt?"],
+    "responses": ["In financial statement reporting, companies must record long-term debt issuance and all of its associated payment obligations on its financial statements."]
+  },
+  {
+    "tag": "mortgage",
+    "patterns": ["what is mortgage?","meaning of mortgage?"],
+    "responses": ["A mortgage is a loan that the borrower uses to purchase or maintain a home or other form of real estate and agrees to pay back over time."]
+  },
+    {
+    "tag": "universalcredit",
+    "patterns": ["what is universal credit?","what is credit?"],
+    "responses": ["Universal Credit is paid directly into a customer bank account. To receive Universal Credit payments, customers will need to have an account that can receive automated payments.",
+    "Universal Credit is paid monthly and includes an amount of money to pay for (or help with) the customer rent or mortgage."]
+  },
+    {
+    "tag": "typesOfBankAcc",
+    "patterns": ["what are the types of bank account?"],
+    "responses": ["current account, basic bank account, jam jar account (or budgeting account), some types of credit union account, and Post Office® card account."]
+  },
+    {
+    "tag": "chooseanaccount",
+    "patterns": ["How to choose an account?","which account should i use?","advice on choosing bank account?"],
+    "responses": ["All of the accounts ,except the Post Office card account, allow the account holder to make outgoing automated payments."]
+  },
+    {
+    "tag": "openBankAcc",
+    "patterns": ["How to open a bank account?","way to open a bank account?","how to open an account easily?"],
+    "responses": ["Our video https://www.youtube.com/watch?v=uGs6CSlkc8Q (How to open a bank account) explains to customers how opening an account works, with advice on what to do if they have any problems."]
+  },
+  {
+    "tag": "jointAccount",
+    "patterns": ["what is a joint account?"],
+    "responses": ["As a general rule, joint accounts are most suitable for couples who have similar attitudes to money and can budget together and agree a joint spending plan.",
+    "It is a single account in either their name or their partner’s name, or a joint account in both of their names"]
+  },
+  {
+    "tag": "banking tips",
+    "patterns": ["Can you give me some tips on banking?","what are some banking tips?","advice on banking?"],
+    "responses": ["If someone’s partner has a poor credit history they should be aware that opening a joint account with them will affect their own credit score.",
+    "If a customer is worried about their partner taking control of the money and leaving them without access to cash, they should talk to their Jobcentre Plus.",
+    "For more information, see our page on Protecting against financial abuse https://www.moneyadviceservice.org.uk/en/articles/protecting-against-financial-abuse.",
+    "Universal Credit is paid monthly and includes an amount of money to pay for (or help with) the customer’s rent or mortgage. Because of this, many customers are being encouraged to start paying their rent and other bills by Direct Debit or standing order."]
+  },
+  {
+    "tag": "payment",
+    "patterns": ["How do i pay using bank account?","payment using bank account?","How to make payments using my bank account?","How to make online payments?"],
+    "responses": ["Our video https://www.youtube.com/watch?v=9UhDgDXNVnw helps customers understand the difference between Direct Debits and standing orders and how to use them effectively."]
+  },
+  {
+    "tag": "types of home loan",
+    "patterns": ["What are the types of Home Loan?"],
+    "responses": ["1. Home Purchase Loan 2. Land/Plot Purchase Loans 3. Home Construction Loans 4. Home Improvement Loans 5. Home Conversion Loans 6. Home Extension Loans."]
+  },
+  {
+    "tag": "business loan",
+    "patterns": ["What is a business loan?"],
+    "responses": ["Business Loan is the best for you if you are starting a new business of your own or if you are trying to expand your existing business. Interest Rate of Business Loan starts from 14.99% onward"]
+  }
+
+]}
